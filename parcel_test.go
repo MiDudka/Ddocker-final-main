@@ -18,7 +18,7 @@ var (
 	randRange = rand.New(randSource)
 )
 
-// getTestParcel возвращает тестовую посылку
+// getTestParcel возвращает тестовую посылку tag
 func getTestParcel() Parcel {
 	return Parcel{
 		Client:    1000,
