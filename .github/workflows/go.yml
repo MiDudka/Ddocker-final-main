@@ -37,7 +37,6 @@ jobs:
         uses: docker/metadata-action@v5.5.1
         with:
           images: MiDudka/Ddocker-final-main
-
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
         with:
