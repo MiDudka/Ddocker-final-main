@@ -1,4 +1,4 @@
-name: workflow-lesson
+name: Ddocker-final-main
 on: push
 jobs:
   test:
@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: chubir/workflow-lesson
+          images: MiDudka/Ddocker-final-main
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
