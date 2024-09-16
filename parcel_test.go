@@ -12,7 +12,7 @@ import (
 var (
 	// randSource — это источник псевдослучайных чисел.
 	// Для повышения уникальности в качестве seed
-	// используется текущее время в unix-формате в виде числа
+	// используется текущее время в unix-формате в виде числа tag
 	randSource = rand.NewSource(time.Now().UnixNano())
 	// randRange использует randSource для генерации случайных чисел
 	randRange = rand.New(randSource)
